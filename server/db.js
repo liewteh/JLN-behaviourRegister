@@ -21,6 +21,7 @@ export const connectDb = async () => {
 	client.release();
 };
 
+
 export const disconnectDb = () => pool.close();
 
 export default { query: pool.query };
