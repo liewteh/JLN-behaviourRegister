@@ -7,6 +7,7 @@ const pool = new Pool({
 	connectionTimeoutMillis: 5000,
 });
 
+
 export const connectDb = async () => {
 	let client;
 	try {
